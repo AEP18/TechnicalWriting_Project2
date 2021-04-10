@@ -1,0 +1,107 @@
+How to use Logisim
+==================
+:toc: left
+
+What is Logisim?
+~~~~~~~~~~~~~~~~
+
+Logisim is a click-and-drop software created by Dr. Carl Burch that has the
+ability to model and simulate various circuits using a combination of logic
+gates, wires, as well as combinational and sequential circuit components.
+
+To learn more, visit the Logisim home page at
+link:http://www.cburch.com/logisim/[Logisim Home Page].
+
+With this guide you will learn how to simulate circuits using the Logisim software and by the end, you will have a surface level understanding of the types of circuits you can create and the components used to build a ciruit similar to the diagram depicted below. 
+
+--
+[.text-center]
+image::CalcDisplay.png[Display, 400, 300, align=center, title-align=center]
+--
+
+How to Install
+~~~~~~~~~~~~~~
+. Before you begin, make sure you have the latest version of Java installed. If you are not sure what version you have, press the Windows button and type "cmd". 
+ - Once your command terminal opens, type `java -version` and it will display your currently installed version of Java. As of writing this, the most recent version is version 8.
+
+. If you do not have Java installed, visit link:https://www.java.com/download/ie_manual.jsp[Java Download] to install the latest version of Java.
+
+ - Once you have downloaded and opened the installer, begin the installation by pressing the install button. 
+ -From here you will continue to press the next button
+ until you have finished installing. Once that is complete, you may continue with the next step.
+
+. Once you confirm that Java is installed on your machine, go to this link link:https://sourceforge.net/projects/circuit/[Logisim Download] and download the Logisim software. 
++
+--
+image::LogisimDownload.png[Logisim Download, 600, 500, align=center]
+--
++
+. When the software downloaded is complete, you may proceed to open the program where you should see a blank workspace.
+
+
+Using Logisim
+~~~~~~~~~~~~~
+After opening the program, you will see a blank workspace with dots and a component menu on the left-hand side. The component menu is split into several categories listed as follows: *Wiring*, *Gates*, *Plexers*, *Arithmetic*, *Memory*, *Input/Output*, and *Base*. We will cover what each of these categories mean and how to use them.
+
+*Wiring*: +
+Wiring contains various wire connectors as well as other miscellaneous circuit components.
+
+*Gates*: +
+The gates folder has the basic logic gate components (e.g. AND gate, NOT gate, etc.)  as well as parity gates, both of which we will get into in more depth later.
+
+*Plexers*: +
+The category for plexers contains components that perform specific operations on data, such as selections, decodings, and encoders.
+
+*Arithmetic*: +
+This section encapsulates the components that perform mathematical operations on the data.
+
+*Memory*: +
+Memory has various registers that are used to hold data which will then be accessed later.
+
+*Input/Output*: +
+These are the components that allow you to interact with your circuit and change the values being passed through the wires and components.
+
+*Base*: +
+This section consists of tools used to maintain your circuit and program's workspace.
+
+With these components we can build many types of circuits and this guide will teach you how to build a simple circuit and with those skills, you can learn how to make more complex circuits and even a simulation. 
+
+Wires can easily be made by drawing a line from one component to another. To change how these components look, face, or say, you can click on any indidvidual component and look below the Component Menu to find Component Properties that you can change.
+--
+image::CountUp.png[Count Up, align=center]
+--
+
+FAQ
+~~~
+ * *Do I have to know a lot about circuits to use Logisim?* +
+ Thankfully, Logisim was designed with simplicity in mind and is incredibly user-friendly. It is meant for educational purposes and by using this program, you will get a better understanding of how hardware components work in conjuction with each other and how the clock regulates these interactions.
+
+ * *How do I add new circuit components with external libraries?* +
+ After downloading a .circ file that contains custom-made circuit components, you can import the library by maneuvering to Project > Load Library > Logisim Library. When the File Explorer opens, navigate to the file you would like to import and open it. You should now see a new folder with your imported components in the Component Menu on the left-hand side.
+
+ * *What are the capabilities of Logisim* +
+Logisism has many tools that can be used to help with the logic of your circuits. There is an option in the toolbar that can assist with this. You can go to Window > Combinational Analysis to open a new window that contains a tool to show possible inputs, outputs, and its respective truth table.
+
+Troubleshooting & Support
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you are experiencing issues with the program that have not been addressed in this guide, there are plenty of online resources that may help. These resources are listed below: 
+
+link:http://www.cburch.com/logisim/index.html[Logisim Home Page] - Logisim Home Page is the official site of Logisim and the page has its own Q&A as well as official documentation for the program.
+
+link:https://stackoverflow.com[Stack Overflow] - Stack Overflow is a forum site that allows users to provide help to others with programming questions and problems.
+
+link:https://www.allaboutcircuits.com[All About Circuits] - All About Circuits is a specialized forum site focused on circuitry.
+
+If these resources do not help or you have questions about specific things mentioned in this guide, feel free to email me at paredesjg@appstate.edu.
+
+Licensing
+~~~~~~~~~
+
+Logisim is licensed under the GNU General Public License by the Free Software Foundation.
+
+How To Contribute
+~~~~~~~~~~~~~~~~~
+
+If you would like to provide feedback as to how this guide can be improved or how it was helpful, please email me at paredesjg@appstate.edu.
+
